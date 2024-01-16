@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github repos test</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+
+    <header class="container">
+        <form action="" class="d-flex align-items-center mt-5">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <button class="btn btn-primary">Search</button>
+        </form>
+    </header>
+
+    <main class="mt-5">
+        <div class="container-xl">
+            <!--render for githubUserInfo   -->
+            <div id="githubUserInfo">
+                <div class="bg-light shadow-lg rounded-3 p-3 d-flex align-items-center  gap-3 ">
+                    <img class="object-fit-cover rounded-circle " width="150" height="150" src="https://cdn.pixabay.com/photo/2018/10/29/21/46/human-3782189_640.jpg" alt="github user photo">
+
+                    <div>
+                        <h1>Name: Palonchi</h1>
+                        <p>
+                            <b>Bio:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quas aperiam, repudiandae veniam laborum temporibus corrupti consectetur laudantium. Ipsam, enim unde. Aliquid eaque atque debitis reprehenderit soluta labore quisquam recusandae.
+                        </p>
+
+                        <button class="btn btn-primary ">More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--render for reposWrapper   -->
+            <div id="reposWrapper" class="mt-5">
+                <div class="card p-3 ">
+                    <h3>Project Name: <span class="h5">palonchi app</span></h3>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

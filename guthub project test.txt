@@ -1,0 +1,2 @@
+Github user api: https://api.github.com/users/${theInput.value}
+Github repostories: https://api.github.com/users/${theInput.value}/repos
